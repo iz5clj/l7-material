@@ -11,6 +11,8 @@
 
     @yield('content')
 
+    @include('partials.javascript')
+
 </body>
 
 </html>
