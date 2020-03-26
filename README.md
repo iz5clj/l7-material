@@ -1,5 +1,7 @@
 <p align="center"><img src="https://res.cloudinary.com/auxe/image/upload/v1584899634/auxe/auxeBlack220x51_gqqucy.png" width="200"></p>
 
+<p align="center">Laravel 7 base template with material admin dashboard</p>
+
 ## Changes that were made to the orignal package
 
 1. In the file `config/app.php` `'asset_url' => env('ASSET_URL', 'assets')`
