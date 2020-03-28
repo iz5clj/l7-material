@@ -5,7 +5,8 @@
 ## Changes that were made to the orignal package
 
 1. In the file `config/app.php` `'asset_url' => env('ASSET_URL', 'assets')`
-2. In the file `webpack.mix.js` ```
+2. In the file `webpack.mix.js`  
+```
 mix.scripts([  
     'node_modules/jquery/dist/jquery.js',  
     'node_modules/popper.js/dist/umd/popper.js',  
