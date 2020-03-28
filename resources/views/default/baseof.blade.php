@@ -7,9 +7,17 @@
 
 <body>
 
-    @include('partials.header')
+    @include('partials.aside')
 
-    @yield('content')
+    <div class="main-panel">
+
+        @include('partials.header')
+
+        @yield('content')
+
+        @include('partials.footer')
+
+    </div>
 
     @include('partials.javascript')
 

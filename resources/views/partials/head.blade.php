@@ -6,11 +6,15 @@
 
 <title>{{ config('app.name', 'Laravel') }}</title>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+{{-- begin :: Fontawesome 5.0 All styles --}}
+{{-- <script defer src="{{ mix(asset('js/fontawesome.js')) }}"></script> --}}
 
 {{-- begin :: Fonts --}}
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+{{-- begin :: google icons --}}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 {{-- begin :: Styles --}}
 <link href="{{ mix(asset('css/app.css')) }}" rel="stylesheet">

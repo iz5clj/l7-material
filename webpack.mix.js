@@ -18,6 +18,8 @@ mix.scripts([
     'resources/js/app.js'
 ], 'public/assets/js/app.js').version();
 
+mix.scripts('node_modules/@fortawesome/fontawesome-free/js/all.js', 'public/assets/js/fontawesome.js').version();
+
 mix.sass('resources/sass/app.scss', 'public/assets/css').version();
 
 mix.browserSync({
